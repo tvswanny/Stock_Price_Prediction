@@ -8,7 +8,7 @@
 # predict stock prices
 
 # import modules
-# import yfinance as yf
+import yfinance as yf
 import tensorflow.keras as keras
 import numpy as np
 from sklearn import preprocessing
@@ -37,7 +37,7 @@ first_step_idx = -samples - steps - maxConv + 1  # index of 1st datapoint
 last_step_idx = -samples   # index representing sample length
 print(first_step_idx, last_step_idx)
 
-### Uncomment this section to get the data
+### Uncomment this section to download the data
 # df = yf.download('SPY') # loads all data to 'data' 
 # raw_data = np.array(df)
 # raw_data.shape
