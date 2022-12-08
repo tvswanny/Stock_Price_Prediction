@@ -7,4 +7,6 @@ The model can be tested and visualized best using the stock_prediction.ipynb Jup
 
 Once the model is trained and saved, datasets can be selected from the near 30 years of SPY data and tested using the model-test.ipynb Jupyter notebook file.  Accuracy will be calculated, results graphed, and percent profitable trades for the test period selected shown.  Follow instructions in the notebook markdown cells and comments.
 
-This model as currently constructed does not predict profitable trades overall and will need better optimization of parameters and hyperparameters if it to successfully predict daily closing prices.  Additional inputs such as technical indicators, other financial inputs such as interest rates and economic growth, and measurements of public sentiment and optimism may also be beneficial.  Future plans by the author include utilization of keras tuner to optimize network structure and hyperparameters and introducing additional technical analysis inputs from TA-lib.
+This model as currently constructed does not predict profitable trades overall and will need better optimization of parameters and hyperparameters if it to successfully predict daily closing prices.  Additional inputs such as technical indicators, other financial inputs such as interest rates and economic growth, and measurements of public sentiment and optimism may also be beneficial.  
+
+Future plans by the author include utilization of keras tuner to optimize network structure and hyperparameters and introducing additional technical analysis inputs from the TA-lib library.
