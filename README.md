@@ -10,3 +10,6 @@ Once the model is trained and saved, datasets can be selected from the near 30 y
 This model as currently constructed does not predict profitable trades overall and will need better optimization of parameters and hyperparameters if it to successfully predict daily closing prices.  Additional inputs such as technical indicators, other financial inputs such as interest rates and economic growth, and measurements of public sentiment and optimism may also be beneficial.  
 
 Future plans by the author include utilization of keras tuner to optimize network structure and hyperparameters and introducing additional technical analysis inputs from the TA-lib library.
+
+
+Modeled after Shah, A., Gor, M., Sagar, M., & Shah, M. (2022). A stock market trading framework based on deep learning architectures. Multimedia Tools and Applications, 81, 14153-14171. Retrieved from https://link.springer.com/content/pdf/10.1007/s11042-022-12328-x.pdf. 
