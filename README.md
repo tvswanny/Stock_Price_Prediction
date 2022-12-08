@@ -1,5 +1,5 @@
 # Stock_Price_Prediction
-This program attempts to predict the next day's closing price for the S&P500 stock index.
+This program attempts to predict the next day's closing price for the S&P500 stock index using a hybrid LSTM/CNN deep learning network.
 
 This program uses historical price data (Open, High, Low, Close), the Adjusted Closing Price (adjusted for stock splits and dividends), and trading volume to predict the next day's closing price for the S&P500 stock index ("SPY").  Stock data is downloaded using the Yahoo Finance (yfinance) library.
 
